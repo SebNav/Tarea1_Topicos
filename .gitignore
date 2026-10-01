@@ -1,0 +1,28 @@
+# Solo se suben: codigos/, los fuentes de codigo_entregado/, Makefile, README.md
+# y el informe en PDF (Tarea1_Topicos_informe.pdf)
+
+# Trazas y resultados (se regeneran con los pasos del README)
+datos/
+resultados/
+*.bin
+*.pcap
+*.pcap.gz
+
+# Ejecutables
+bin/
+codigo_entregado/exact_hh
+codigo_entregado/pcap2bin
+
+# Material del curso que no se sube
+Tarea1_2026.pdf
+codigo_entregado/infotrazas.txt
+
+# Fuentes del informe (solo se sube el PDF)
+informe/
+
+# Diagrama de guia, no se usa en el informe
+codigos/diagrama_ventana.py
+
+# Varios
+__pycache__/
+.~lock.*
